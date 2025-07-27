@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello NodeJS</title>
+</head>
+<body>
+    <h1>Welcome to NodeJS App</h1>
+    <button id="getHelloBtn">Get Hello Message</button>
+    <p id="responseArea"></p>
+
+    <script>
+        document.getElementById('getHelloBtn').addEventListener('click', () => {
+            fetch('/gethello')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('responseArea').textContent = data;
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                });
+        });
+    </script>
+</body>
+</html>

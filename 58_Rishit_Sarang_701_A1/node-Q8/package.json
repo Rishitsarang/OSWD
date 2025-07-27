@@ -1,0 +1,16 @@
+{
+  "name": "q8",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test.js",
+    "clean": "rm -rf dist",
+    "backup": "node backup.js",
+    "greet": "node greet.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
