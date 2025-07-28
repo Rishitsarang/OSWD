@@ -1,0 +1,22 @@
+{
+  "name": "text-formatter-s701",
+  "version": "1.0.0",
+  "description": "A simple text formatter to convert strings to title case, upper case, and lower case.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "text",
+    "formatter",
+    "titlecase",
+    "uppercase",
+    "lowercase",
+    "capitalize"
+  ],
+  "author": "Sarang Rishit",
+  "license": "ISC",
+  "dependencies": {
+    "text-formatter-s701": "^1.0.0"
+  }
+}
